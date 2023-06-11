@@ -1,28 +1,69 @@
 /**
-* @name Akeno.exe
-* @version 1.0
-* @author Justsenpai_ | szopjle#4172
-* @description Akeno himejima theme xd
-* @authorId 270607409150558208
+ * @name DarkGirlPhonk
+ * @author Gibbu#1211
+ * @version 2.0.0
+ * @description Display your picture of choice with adjustable blur and brightness.
+ * @source https://github.com/DiscordStyles/FrostedGlass
+ * @invite ZHthyCw
+ * @donate https://paypal.me/IanRGibson
+ * @website https://gibbu.me
+ * @authorId 174868361040232448
+ * @BDEditor Frosted Glass
 */
-@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/css/scsl.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;300;400;500;700&display=swap');
+@import url('https://discordstyles.github.io/FrostedGlass/dist/FrostedGlass.css');
+@import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url('https://discordstyles.github.io/Addons/windows-titlebar.css');
+
 :root {
-    --background-image: url(https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/36d35de7-1066-429b-bbc8-26383356bd71/dd8pgx3-36a96a9e-e8c0-4017-9b75-6e405793c384.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3sicGF0aCI6IlwvZlwvMzZkMzVkZTctMTA2Ni00MjliLWJiYzgtMjYzODMzNTZiZDcxXC9kZDhwZ3gzLTM2YTk2YTllLWU4YzAtNDAxNy05Yjc1LTZlNDA1NzkzYzM4NC5qcGcifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6ZmlsZS5kb3dubG9hZCJdfQ.v1eRIpUK0C62HBV2KkK3QnEcpADz8tT80cT-qD5vzJo);
-    --friends-icon: url(https://cdn.wallpapersafari.com/95/74/XmaB2p.jpg);
-    --friends-icon-position: center center;
-    --friends-icon-zoom: 100%;
-    --main-color: rgba(105, 24, 172, 0.884);
-    --main-transparency: rgba(14, 2, 20, 0.795);
-    --unread-server-animation: rainbow;
-    --hover-list-bg-color: rgba(59, 58, 58, 0.432);
-    --border-lines-color: hsla(0,0%,100%,.1);
-    --scroll-bar-color: rgba(79, 30, 172, 0.15);
-    --font: 'Garamond';
-    --font-size: 16px;
-    --selected-text-voice-color: #af1111;
-    --channel-hover-text-color: rgba(73, 79, 160, 0.836);
-    --unread-text-color: #e791cb;
-    --user-popup-background: rgba(0, 0, 0, 0.8);
-    --HSL-server-icon-size: 50px;
-    --HSL-server-spacing: 10px;
+  --background-image: url('https://i.imgur.com/VtJNlVE.jpg');
+  --background-image-blur: 2px;
+  --background-image-size: contain;
+  --background-image-position: center;
+  --popout-image: url('https://i.imgur.com/Pka2rgF.jpg');
+  --popout-image-blur: 5px;
+  --popout-image-size: cover;
+  --popout-image-position: center;
+  --overlay-image: url('https://i.imgur.com/BG9NLJz.jpg');
+  --overlay-image-blur: 5px;
+  --overlay-image-size: cover;
+  --overlay-image-position: center;
+  --home-button-image: url('https://i.imgur.com/vULicyC.jpg');
+  --home-button-size: contain;
+  --home-button-position: center;
+  --serverlist-brightness: 0.8;
+  --left-brightness: 0.8;
+  --middle-brightness: 0.6;
+  --right-brightness: 0;
+  --overlay-brightness: 0.75;
+  --gradient-primary: 103,58,183;
+  --gradient-secondary: 63,81,181;
+  --link-colour: #00b0f4;
+  --scrollbar-colour: rgba(255,255,255,0.05);
+  --gradient-direction: 320deg;
+  --tint-colour: 255,51,51;
+  --tint-brightness: 0;
+  --font: Asap;
+  --window-padding: 10px;
+  --window-roundness: 10px;
+  --update-notice-1: none;
+  --rs-small-spacing: 2px;
+  --rs-medium-spacing: 2px;
+  --rs-large-spacing: 2px;
+  --rs-small-width: 2px;
+  --rs-medium-width: 2px;
+  --rs-large-width: 2px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #43b581;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-phone-visible: block;
 }
+
+/* Any custom CSS below here */
+
+
