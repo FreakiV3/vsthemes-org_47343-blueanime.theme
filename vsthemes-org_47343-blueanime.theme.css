@@ -1,21 +1,21 @@
 /**
- * @name Albedo/OverLord v.1
- * @author TereruNaYo
+ * @name Zero two - supreme
+ * @author Lorens
  * @version auto updates
  * @description Theme was created in generator https://vsthemes.org/generator/
- * @source https://vsthemes.org/en/skins/discord/50544-albedo-overlord.html
- * @authorLink https://vsthemes.org/user/TereruNaYo/
- * @authorId 65141
+ * @source https://vsthemes.org/en/skins/discord/26946-zero-two-quotsupremequot.html
+ * @authorLink https://vsthemes.org/user/Lorens/
+ * @authorId 35703
 */
 @import url(https://vsthemes.org/uploads/generator/client/BasicBackground.css);
 :root {
     --transparencycolor: 0,0,0;
-    --transparencyalpha: 0.1;
+    --transparencyalpha: 0.2;
     --messagetransparency: 0.5;
     --guildchanneltransparency: 0.2;
     --memberlistransparency: 0;
-    --accentcolor: 197,139,238;
-    --background: url("https://vsthemes.org/uploads/posts/2022-03/1647286871_wallpaperbetter_com_1920x1200.webp");
+    --accentcolor: 130,130,130;
+    --background: url("https://vsthemes.org/uploads/posts/2021-02/1613724775_code-002-zerotwo-supreme-anime-girls-zero-two-darling-in-the-franxx-darling-in-the-franxx-1688317.webp");
     --backdrop: rgba(0,0,0,0.2);
     --backgroundblur: 0px;
     --popoutblur: 0px;
